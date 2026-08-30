@@ -1,19 +1,21 @@
-cluster_id,cluster,country,primary_keyword,total_estimated_monthly_volume,representative_kd,dominant_intent,recommended_page_type,priority,data_source,checked_on,status,notes
-C01,100 g protein per day,US,how to eat 100g of protein a day,,,informational,pillar guide,high,,,pending,Core searchable outcome
-C01,100 g protein per day,India,how to eat 100g of protein a day,,,informational,pillar guide,high,,,pending,Validate local spelling and SERP differences
-C02,Protein without tracking,US,how to get enough protein without tracking,,,informational,method guide,high,,,pending,Core differentiation
-C02,Protein without tracking,India,how to get enough protein without tracking,,,informational,method guide,high,,,pending,Test macros and calorie-counting variants
-C03,Vegetarian 100 g protein plan,US,100g protein vegetarian meal plan,,,informational,meal plan,high,,,pending,US ingredients and measurements
-C03,Vegetarian 100 g protein plan,India,100g protein vegetarian diet plan,,,informational,meal plan,high,,,pending,Indian foods and household measurements
-C04,Eggetarian protein plan,US,100g protein eggetarian meal plan,,,informational,meal plan,medium,,,pending,Validate whether egg vegetarian language is used in US
-C04,Eggetarian protein plan,India,100g protein eggetarian diet plan,,,informational,meal plan,high,,,pending,India-specific terminology
+cluster_id,cluster,country,primary_keyword,selected_keyword_volume_sum,representative_kd,dominant_intent,recommended_page_type,priority,data_source,checked_on,status,notes
+C01,100 g protein per day,US,how to get 100g of protein a day,7420,38,informational,pillar guide,high,Semrush Keyword Magic Tool,2026-08-30,first_pass_complete,Sum covers 12 selected close variants; not a forecast of obtainable traffic
+C01,100 g protein per day,India,100g protein diet,540,27,informational,India meal-plan guide,high,Semrush Keyword Magic Tool,2026-08-30,first_pass_complete,India broad 100g results mostly mean protein per 100g of a food
+C02,Protein without tracking,US,how to get enough protein without tracking,,,informational,method guide,high,,,pending,Core differentiation; use as page angle until demand is validated
+C02,Protein without tracking,India,how to get enough protein without tracking,,,informational,method guide,medium,,,pending,Test macros calorie-counting and without-measuring variants
+C03,High-protein vegetarian meal plan,US,high protein vegetarian meal plan,890,23,informational,meal plan,high,Semrush Keyword Magic Tool,2026-08-30,first_pass_complete,Exact 100g vegetarian seed returned no rows; target broader meal-plan demand with 100g as the implementation
+C03,High-protein vegetarian meal plan,India,high protein vegetarian meal plan,210,32,informational,meal plan,medium,Semrush Keyword Magic Tool,2026-08-30,first_pass_complete,India-specific phrase has 30 volume but no refreshed KD
+C04,Eggetarian protein plan,US,100g protein eggetarian meal plan,,,informational,meal plan,low,,,pending,Validate whether this terminology is used in the US
+C04,Eggetarian protein plan,India,100g protein eggetarian diet plan,,,informational,meal plan,medium,,,pending,India-specific terminology
 C05,High-protein vegetarian breakfast,US,high protein vegetarian breakfast,,,informational,recipe roundup,high,,,pending,Supports repeatable breakfast system
 C05,High-protein vegetarian breakfast,India,high protein vegetarian breakfast,,,informational,recipe roundup,high,,,pending,Investigate Indian breakfast modifiers
 C06,High-protein vegetarian lunch,US,high protein vegetarian lunch,,,informational,recipe roundup,high,,,pending,Supports repeatable lunch system
 C06,High-protein vegetarian lunch,India,high protein vegetarian lunch,,,informational,recipe roundup,high,,,pending,Investigate office and tiffin modifiers
-C07,Protein for busy women,US,high protein meal plan for busy women,,,informational,persona guide,medium,,,pending,Audience positioning may exceed direct demand
+C07,Protein for busy women,US,high protein meal plan for busy women,,,informational,persona guide,medium,,,pending,Audience positioning may exceed direct search demand
 C07,Protein for busy women,India,high protein meal plan for busy women,,,informational,persona guide,medium,,,pending,Validate working women modifiers
 C08,Repeat meals and food-planning friction,US,eating the same breakfast every day,,,informational,behavior guide,medium,,,pending,Potential top-of-funnel cluster
 C08,Repeat meals and food-planning friction,India,eating the same breakfast every day,,,informational,behavior guide,low,,,pending,Assess local intent before building
-C09,Short strength routine,US,30 minute strength workout 3 days a week,,,informational,workout guide,medium,,,pending,Adjacent topical cluster
+C09,Short strength routine,US,30 minute strength workout 3 days a week,,,informational,workout guide,low,,,pending,Adjacent cluster after nutrition authority is established
 C09,Short strength routine,India,30 minute strength workout 3 days a week,,,informational,workout guide,low,,,pending,Build only if topical fit is supported
+C10,Protein per 100 g of vegetarian foods,India,paneer protein per 100g,185900,17,informational,food reference hub plus individual food pages,high,Semrush Keyword Magic Tool,2026-08-30,first_pass_complete,Sum covers 11 selected food terms; each food needs its own accurate page and raw-versus-cooked clarification
+C10,Protein per 100 g of vegetarian foods,US,protein per 100g vegetarian foods,,,informational,food reference hub,low,,,pending,India is the initially validated market for this cluster

@@ -1,1 +1,41 @@
 keyword_id,cluster_id,country,keyword,intent,volume,kd,cpc,serp_features,current_top_domains,recommended_target_page,data_source,checked_on,status,notes
+K001,C01,US,100 grams of protein a day,informational,1300,30,,,,P001,Semrush Keyword Magic Tool,2026-08-30,verified,
+K002,C01,US,how to get 100g of protein a day,informational,1000,38,,,,P001,Semrush Keyword Magic Tool,2026-08-30,verified,
+K003,C01,US,how to eat 100 grams of protein a day,informational,1000,48,,,,P001,Semrush Keyword Magic Tool,2026-08-30,verified,
+K004,C01,US,what does 100 grams of protein look like,informational,1000,19,,,,P001,Semrush Keyword Magic Tool,2026-08-30,verified,Visual intent deserves a strong meal-example section
+K005,C01,US,100g protein a day,informational,590,32,,,,P001,Semrush Keyword Magic Tool,2026-08-30,verified,
+K006,C01,US,how much is 100 grams of protein,informational,590,25,,,,P001,Semrush Keyword Magic Tool,2026-08-30,verified,
+K007,C01,US,how can i eat 100 grams of protein a day,informational,590,45,,,,P001,Semrush Keyword Magic Tool,2026-08-30,verified,
+K008,C01,US,how to consume 100 grams of protein a day,informational,390,29,,,,P001,Semrush Keyword Magic Tool,2026-08-30,verified,
+K009,C01,US,100g of protein a day,informational,320,21,,,,P001,Semrush Keyword Magic Tool,2026-08-30,verified,
+K010,C01,US,how to eat 100g of protein a day,informational,260,31,,,,P001,Semrush Keyword Magic Tool,2026-08-30,verified,
+K011,C01,US,100g protein per day,informational,210,37,,,,P001,Semrush Keyword Magic Tool,2026-08-30,verified,
+K012,C01,US,how much is 100g of protein,informational,170,34,,,,P001,Semrush Keyword Magic Tool,2026-08-30,verified,
+K013,C01,India,100g protein diet,informational,480,27,,,,P003,Semrush Keyword Magic Tool,2026-08-30,verified,
+K014,C01,India,daily 100g protein diet,informational,40,,,,,P003,Semrush Keyword Magic Tool,2026-08-30,volume_only,Semrush showed volume but metrics required refresh
+K015,C01,India,100g protein indian diet,informational,20,,,,,P003,Semrush Keyword Magic Tool,2026-08-30,volume_only,Semrush showed volume but metrics required refresh
+K016,C03,US,high protein vegetarian meal plan,informational,320,23,,,,P002,Semrush Keyword Magic Tool,2026-08-30,verified,
+K017,C03,US,high protein vegetarian diet plan,informational,170,25,,,,P002,Semrush Keyword Magic Tool,2026-08-30,verified,
+K018,C03,US,high protein meal plan vegetarian,informational,90,23,,,,P002,Semrush Keyword Magic Tool,2026-08-30,verified,
+K019,C03,US,high protein vegetarian diet meal plan,informational,70,15,,,,P002,Semrush Keyword Magic Tool,2026-08-30,verified,
+K020,C03,US,protein diet plan for vegetarians,informational,70,21,,,,P002,Semrush Keyword Magic Tool,2026-08-30,verified,
+K021,C03,US,high protein diet plan for vegetarians,informational,70,18,,,,P002,Semrush Keyword Magic Tool,2026-08-30,verified,
+K022,C03,US,vegetarian high protein meal plan,informational,50,23,,,,P002,Semrush Keyword Magic Tool,2026-08-30,verified,
+K023,C03,US,vegetarian high protein diet plan,informational,50,15,,,,P002,Semrush Keyword Magic Tool,2026-08-30,verified,
+K024,C03,India,high protein vegetarian meal plan,informational,110,32,,,,P003,Semrush Keyword Magic Tool,2026-08-30,verified,
+K025,C03,India,high protein indian vegetarian meal plan,informational,30,,,,,P003,Semrush Keyword Magic Tool,2026-08-30,volume_only,Semrush showed volume but metrics required refresh
+K026,C03,India,high protein diet meal plan vegetarian,informational,20,,,,,P003,Semrush Keyword Magic Tool,2026-08-30,volume_only,
+K027,C03,India,high protein vegetarian diet meal plan,informational,20,,,,,P003,Semrush Keyword Magic Tool,2026-08-30,volume_only,
+K028,C03,India,meal plan high protein vegetarian,informational,20,,,,,P003,Semrush Keyword Magic Tool,2026-08-30,volume_only,
+K029,C03,India,vegetarian protein meal plan,informational,10,,,,,P003,Semrush Keyword Magic Tool,2026-08-30,volume_only,
+K030,C10,India,paneer protein per 100g,informational,40500,17,,,,P009,Semrush Keyword Magic Tool,2026-08-30,verified,Clarify raw versus prepared product and data source
+K031,C10,India,soya chunks protein per 100g,informational,40500,23,,,,P009,Semrush Keyword Magic Tool,2026-08-30,verified,Clarify dry versus cooked weight
+K032,C10,India,tofu protein per 100g,informational,22200,32,,,,P009,Semrush Keyword Magic Tool,2026-08-30,verified,Protein varies by firmness and brand
+K033,C10,India,protein in peanuts per 100g,informational,18100,35,,,,P009,Semrush Keyword Magic Tool,2026-08-30,verified,
+K034,C10,India,chana protein per 100g,informational,12100,26,,,,P009,Semrush Keyword Magic Tool,2026-08-30,verified,Clarify dry versus boiled
+K035,C10,India,chickpeas protein per 100g,informational,9900,25,,,,P009,Semrush Keyword Magic Tool,2026-08-30,verified,Potential overlap with chana page
+K036,C10,India,rajma protein per 100g,informational,9900,21,,,,P009,Semrush Keyword Magic Tool,2026-08-30,verified,Clarify dry versus cooked
+K037,C10,India,oats protein per 100g,informational,9900,30,,,,P009,Semrush Keyword Magic Tool,2026-08-30,verified,
+K038,C10,India,moong dal protein per 100g,informational,8100,19,,,,P009,Semrush Keyword Magic Tool,2026-08-30,verified,Clarify raw versus cooked
+K039,C10,India,soybean protein per 100g,informational,8100,23,,,,P009,Semrush Keyword Magic Tool,2026-08-30,verified,Consolidate close soybean spelling variants
+K040,C10,India,curd protein per 100g,informational,6600,24,,,,P009,Semrush Keyword Magic Tool,2026-08-30,verified,Indian curd varies by milk and preparation

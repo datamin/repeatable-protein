@@ -6,6 +6,7 @@ This folder is the source of truth for keyword and SERP research.
 
 - [`keyword-clusters.csv`](keyword-clusters.csv) — cluster-level opportunity summary for US and India.
 - [`keywords.csv`](keywords.csv) — one row per keyword and country.
+- [`keyword-research-summary.md`](keyword-research-summary.md) — readable tables, interpretation, and recommended priorities.
 - [`serp-notes.md`](serp-notes.md) — competitor, intent, format, and ranking observations.
 
 ## Required metrics
@@ -17,17 +18,14 @@ This folder is the source of truth for keyword and SERP research.
 
 Search volumes and KD are directional estimates. Preserve the date and source because tools update their databases over time.
 
-## Initial hypothesis clusters
+## Research status
 
-The seed clusters below come from the product concept and must be validated in Semrush before prioritization:
+The first Semrush pass on 2026-08-30 validates three areas:
 
-1. Eating 100 g of protein per day.
-2. Reaching a protein target without tracking macros.
-3. Vegetarian and eggetarian 100 g protein meal plans.
-4. High-protein vegetarian breakfasts.
-5. High-protein vegetarian lunches and meal prep.
-6. Protein for busy women.
-7. Repeating meals and reducing food-planning friction.
-8. Short strength-training routines for busy women.
+1. Eating 100 g of protein per day, especially in the US.
+2. High-protein vegetarian meal plans, with stronger demand in the US than India.
+3. India-specific searches for the protein in 100 g of individual vegetarian foods.
+
+Protein-without-tracking, eggetarian, breakfast, lunch, busy-women, repeated-meal, and workout clusters still require a complete metric pass.
 
 Do not combine keywords merely because they share words. Group them only when the same page format and answer can satisfy their search intent.
