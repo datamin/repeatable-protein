@@ -70,19 +70,29 @@ h3 { font-size: 2rem; }
 .protein.green { background: #e4eedb; color: #476141; }
 .protein.peach { background: #f4ddce; color: #9c4a33; }
 .ingredients { margin: 26px 0 0; padding: 0; list-style: none; }
-.ingredients li { position: relative; margin: 11px 0; padding-left: 29px; color: #41463f; }
+.ingredients li { position: relative; margin: 14px 0; padding-left: 29px; display: flex; align-items: start; justify-content: space-between; gap: 16px; color: #41463f; }
 .ingredients li::before { content: "✓"; position: absolute; left: 0; top: 1px; width: 20px; height: 20px; display: grid; place-items: center; border-radius: 50%; background: #e4eedb; color: #476141; font-size: .7rem; font-weight: 900; }
+.food-calories { flex: none; padding: 3px 8px; border-radius: 999px; background: var(--sand); color: var(--muted); font-size: .75rem; font-weight: 800; white-space: nowrap; }
+.meal-total { margin-top: 25px; padding: 17px 18px; display: flex; align-items: center; justify-content: space-between; gap: 20px; border-radius: 17px; background: var(--green); color: var(--cream); }
+.meal-total span { font-size: .82rem; font-weight: 700; }
+.meal-total strong { font: 700 1.15rem var(--serif); text-align: right; }
+.combined-total { margin-top: 22px; padding: 22px 26px; display: flex; align-items: center; justify-content: space-between; gap: 20px; border: 1px solid var(--border); border-radius: 20px; background: var(--sage); }
+.combined-total span { font-weight: 700; }
+.combined-total strong { font: 700 1.45rem var(--serif); }
 .time { margin: 24px 0 0; padding-top: 17px; border-top: 1px solid var(--border); color: #70786b; font-size: .88rem; }
 .note { color: #70786b; font-size: .85rem; }
 
 .math-section { padding-block: 105px; border-block: 1px solid var(--border); background: #fff; }
 .protein-table { overflow: hidden; border: 1px solid var(--border); border-radius: 28px; background: var(--cream); }
-.protein-table > div { padding: 17px 25px; display: flex; justify-content: space-between; gap: 20px; border-bottom: 1px solid var(--border); }
+.protein-table > div { padding: 17px 25px; display: grid; grid-template-columns: minmax(0, 1fr) 110px 110px; align-items: center; gap: 20px; border-bottom: 1px solid var(--border); }
 .protein-table > div:last-child { border-bottom: 0; }
 .protein-table .table-head { color: var(--muted); font-size: .7rem; font-weight: 800; letter-spacing: .13em; text-transform: uppercase; }
+.protein-table .table-head span:not(:first-child), .protein-table > div strong { text-align: right; }
 .protein-table strong { font-family: var(--serif); font-size: 1.15rem; }
 .protein-table .table-total { align-items: center; background: var(--green); color: var(--cream); }
-.protein-table .table-total strong { font-size: 1.8rem; }
+.protein-table .table-total strong { font-size: 1.45rem; }
+.source-note { margin-top: 20px; color: #70786b; font-size: .78rem; }
+.source-note a { color: var(--green); font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
 
 .dinner-section { padding-block: 100px; background: var(--sage); }
 .dinner-box { padding: 55px; display: grid; grid-template-columns: 1fr .6fr; align-items: center; gap: 50px; border-radius: 36px; background: var(--green); color: var(--cream); }
@@ -91,6 +101,34 @@ h3 { font-size: 2rem; }
 .dinner-target small { color: #b8c9ae; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
 .dinner-target strong { font: 700 3.2rem var(--serif); }
 .dinner-target span { color: #d3dbce; }
+
+.motivation-section { padding-block: 100px; background: var(--sand); }
+.motivation-box { max-width: 950px; text-align: center; }
+.motivation-box blockquote { margin: 0; font: italic 600 clamp(2.7rem, 6vw, 5.8rem)/1.03 var(--serif); letter-spacing: -.045em; color: var(--green); }
+.motivation-box > p:last-child { max-width: 720px; margin: 30px auto 0; color: var(--muted); font-size: 1.08rem; line-height: 1.8; }
+
+.workout-section { padding-block: 105px; background: var(--green); color: var(--cream); }
+.workout-section > .wrap > h2 { max-width: 850px; }
+.workout-intro { max-width: 800px; margin: 24px 0 0; color: #d3dbce; font-size: 1.08rem; line-height: 1.75; }
+.workout-grid { margin-top: 48px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px; }
+.workout-card { position: relative; overflow: hidden; padding: 30px; border-radius: 28px; background: var(--cream); color: var(--green); }
+.workout-card.accent-card { background: #fff1e8; }
+.workout-card.sage-card { background: var(--sage); }
+.day-number { position: absolute; top: 15px; right: 22px; color: rgba(37,49,38,.09); font: 700 5rem/1 var(--serif); }
+.workout-card h3 { max-width: 260px; }
+.exercise-list { margin: 27px 0 0; padding: 0; list-style: none; counter-reset: exercise; }
+.exercise-list li { padding: 14px 0; display: grid; grid-template-columns: 1fr; gap: 2px; border-bottom: 1px solid var(--border); counter-increment: exercise; }
+.exercise-list li:last-child { border-bottom: 0; }
+.exercise-list span { padding-left: 22px; position: relative; font-weight: 700; }
+.exercise-list span::before { content: counter(exercise, decimal-leading-zero); position: absolute; left: 0; color: var(--rust); font-size: .67rem; }
+.exercise-list strong { padding-left: 22px; color: var(--muted); font-size: .78rem; font-weight: 600; }
+.progression-box { margin-top: 22px; padding: 35px; display: grid; grid-template-columns: .8fr 1.2fr; gap: 45px; border: 1px solid rgba(255,255,255,.14); border-radius: 28px; background: rgba(255,255,255,.06); }
+.progression-box ol { margin: 0; padding-left: 20px; color: #d3dbce; }
+.progression-box li { padding: 7px 0; }
+.progression-box strong { color: var(--cream); }
+.workout-note { margin: 20px 0 0; color: #b8c3b4; font-size: .82rem; line-height: 1.65; }
+.workout-source { color: #b8c3b4; }
+.workout-source a { color: var(--cream); }
 
 .center { text-align: center; }
 .center h2, .center .experiment-grid { margin-inline: auto; }
@@ -115,11 +153,12 @@ footer b { background: var(--cream); color: var(--green); }
 
 @media (max-width: 900px) {
   nav { display: none; }
-  .hero, .method-grid, .story-grid, .meal-grid, .math-grid, .dinner-box, .faq-grid { grid-template-columns: 1fr; }
+  .hero, .method-grid, .story-grid, .meal-grid, .math-grid, .dinner-box, .faq-grid, .progression-box { grid-template-columns: 1fr; }
   .hero { padding-block: 55px 80px; }
   .method-grid, .story-grid, .math-grid, .faq-grid { gap: 36px; }
   .method-steps { grid-template-columns: 1fr; }
   .experiment-grid { grid-template-columns: 1fr 1fr; }
+  .workout-grid { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 600px) {
@@ -134,9 +173,15 @@ footer b { background: var(--cream); color: var(--green); }
   .card, .dinner-box { padding: 25px; }
   .card-heading { display: block; }
   .protein { display: inline-block; margin-top: 15px; }
+  .ingredients li { display: block; }
+  .food-calories { display: inline-block; margin-top: 7px; }
+  .meal-total, .combined-total { align-items: start; flex-direction: column; }
+  .meal-total strong { text-align: left; }
   .experiment-grid { grid-template-columns: 1fr; }
-  .protein-table > div { padding-inline: 16px; font-size: .88rem; }
+  .protein-table > div { padding-inline: 16px; grid-template-columns: minmax(0, 1fr) 72px 75px; gap: 8px; font-size: .78rem; }
+  .protein-table strong, .protein-table .table-total strong { font-size: .95rem; }
   .dinner-target { width: 200px; height: 200px; }
+  .workout-card, .progression-box { padding: 24px; }
   footer .wrap { align-items: start; flex-direction: column; }
 }
 
