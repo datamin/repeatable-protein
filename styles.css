@@ -41,6 +41,9 @@ h1 em { display: block; margin-top: 8px; color: var(--rust); font-weight: 600; }
 h2 { font-size: clamp(2.5rem, 5vw, 4.8rem); }
 h3 { font-size: 2rem; }
 .lead, .section-intro { max-width: 650px; color: var(--muted); font-size: 1.18rem; line-height: 1.75; }
+.personal-lead { margin-top: 12px; }
+.personal-context { margin-top: 24px; display: flex; flex-wrap: wrap; gap: 8px; }
+.personal-context span { padding: 7px 11px; border: 1px solid var(--border); border-radius: 999px; background: rgba(255,255,255,.55); color: var(--muted); font-size: .75rem; font-weight: 800; }
 .actions { margin-top: 34px; display: flex; flex-wrap: wrap; gap: 12px; }
 .hero-image { position: relative; margin: 0; padding: 9px; background: #fff; border-radius: 30px; box-shadow: 0 28px 70px rgba(37, 49, 38, 0.18); transform: rotate(1.5deg); }
 .hero-image img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 23px; }
@@ -79,6 +82,10 @@ h3 { font-size: 2rem; }
 .combined-total { margin-top: 22px; padding: 22px 26px; display: flex; align-items: center; justify-content: space-between; gap: 20px; border: 1px solid var(--border); border-radius: 20px; background: var(--sage); }
 .combined-total span { font-weight: 700; }
 .combined-total strong { font: 700 1.45rem var(--serif); }
+.go-out-tip { margin-top: 35px; padding: 32px; display: grid; grid-template-columns: 145px 1fr; align-items: center; gap: 35px; border-radius: 28px; background: var(--sand); }
+.tip-number { width: 130px; height: 130px; display: grid; place-items: center; border: 10px solid var(--rust); border-radius: 50%; color: var(--green); font: 700 2.4rem var(--serif); }
+.go-out-tip h3 { font-size: 2.25rem; }
+.go-out-tip p:last-child { margin-bottom: 0; color: var(--muted); line-height: 1.75; }
 .time { margin: 24px 0 0; padding-top: 17px; border-top: 1px solid var(--border); color: #70786b; font-size: .88rem; }
 .note { color: #70786b; font-size: .85rem; }
 
@@ -122,6 +129,9 @@ h3 { font-size: 2rem; }
 .exercise-list span { padding-left: 22px; position: relative; font-weight: 700; }
 .exercise-list span::before { content: counter(exercise, decimal-leading-zero); position: absolute; left: 0; color: var(--rust); font-size: .67rem; }
 .exercise-list strong { padding-left: 22px; color: var(--muted); font-size: .78rem; font-weight: 600; }
+.strength-why { margin-top: 22px; padding: 40px; border-radius: 28px; background: var(--sand); color: var(--green); }
+.strength-why blockquote { max-width: 850px; margin: 0; font: italic 600 clamp(2.25rem, 5vw, 4.4rem)/1.05 var(--serif); letter-spacing: -.04em; }
+.strength-why > p:last-child { max-width: 800px; margin: 24px 0 0; color: var(--muted); font-size: 1.02rem; line-height: 1.75; }
 .progression-box { margin-top: 22px; padding: 35px; display: grid; grid-template-columns: .8fr 1.2fr; gap: 45px; border: 1px solid rgba(255,255,255,.14); border-radius: 28px; background: rgba(255,255,255,.06); }
 .progression-box ol { margin: 0; padding-left: 20px; color: #d3dbce; }
 .progression-box li { padding: 7px 0; }
@@ -146,6 +156,7 @@ summary { padding: 22px 0; cursor: pointer; font-weight: 700; }
 details p { margin-top: 0; padding: 0 30px 20px 0; color: var(--muted); }
 .health-note { margin-block: 50px; padding: 26px; border: 1px solid var(--border); border-radius: 22px; background: var(--sand); color: var(--muted); font-size: .9rem; }
 .health-note strong { color: var(--green); }
+.health-note a { color: var(--green); font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
 footer { padding-block: 32px; background: var(--green); color: #d3dbce; }
 footer .wrap { display: flex; align-items: center; justify-content: space-between; gap: 20px; }
 footer span { display: flex; align-items: center; gap: 10px; }
@@ -159,6 +170,7 @@ footer b { background: var(--cream); color: var(--green); }
   .method-steps { grid-template-columns: 1fr; }
   .experiment-grid { grid-template-columns: 1fr 1fr; }
   .workout-grid { grid-template-columns: 1fr; }
+  .go-out-tip { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 600px) {
@@ -177,6 +189,8 @@ footer b { background: var(--cream); color: var(--green); }
   .food-calories { display: inline-block; margin-top: 7px; }
   .meal-total, .combined-total { align-items: start; flex-direction: column; }
   .meal-total strong { text-align: left; }
+  .go-out-tip, .strength-why { padding: 24px; }
+  .tip-number { width: 105px; height: 105px; border-width: 8px; font-size: 2rem; }
   .experiment-grid { grid-template-columns: 1fr; }
   .protein-table > div { padding-inline: 16px; grid-template-columns: minmax(0, 1fr) 72px 75px; gap: 8px; font-size: .78rem; }
   .protein-table strong, .protein-table .table-total strong { font-size: .95rem; }
