@@ -1,0 +1,5 @@
+# Temporary framework scaffold retained locally but not used by the static site.
+/web/
+/site/
+/.site-scaffold-tool/
+/.pnpm-store/
