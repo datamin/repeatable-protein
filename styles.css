@@ -323,3 +323,68 @@ footer b { background: var(--cream); color: var(--green); }
   .grocery-list { grid-template-columns: 1fr; }
   .vegetarian-plan-link { align-items: flex-start; flex-direction: column; }
 }
+
+/* Additional recipe options and weekly rotation */
+.alternative-section { padding-block: 105px; border-bottom: 1px solid var(--border); background: var(--sand); }
+.option-section-heading { display: grid; grid-template-columns: 1fr .65fr; align-items: end; gap: 60px; }
+.option-section-heading h2 { max-width: 780px; }
+.option-section-heading > p { margin: 0; color: var(--muted); line-height: 1.75; }
+.option-group { margin-top: 56px; }
+.option-group-label { margin-bottom: 18px; display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+.option-group-label span { color: var(--rust); font-size: .74rem; font-weight: 800; letter-spacing: .13em; text-transform: uppercase; }
+.option-group-label strong { color: var(--muted); font-size: .82rem; }
+.lunch-option-group { margin-top: 70px; }
+.alternative-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; }
+.alternative-card { overflow: hidden; padding: 34px; border: 1px solid var(--border); border-radius: 30px; background: #fff; }
+.alternative-card.oat-card { background: #f7f2e6; }
+.alternative-card.berry-card { background: #fff1e8; }
+.alternative-card.tofu-card { background: var(--sage); }
+.alternative-card.lentil-card { background: #fff; }
+.alternative-card-top { display: grid; grid-template-columns: minmax(0,1fr) auto; align-items: start; gap: 22px; }
+.alternative-card h3 { max-width: 430px; font-size: 2rem; }
+.compact-macro { min-width: 105px; padding: 12px 14px; border-radius: 16px; background: var(--green); color: var(--cream); text-align: center; }
+.compact-macro strong, .compact-macro span { display: block; }
+.compact-macro strong { font: 700 1.35rem var(--serif); }
+.compact-macro span { color: #cbd5c6; font-size: .7rem; }
+.rust-compact { background: var(--rust); }
+.rust-compact span { color: #fff1e8; }
+.option-intro { min-height: 54px; margin: 18px 0 22px; color: var(--muted); }
+.option-ingredients { margin: 0; padding: 0; border-block: 1px solid var(--border); list-style: none; }
+.option-ingredients li { padding: 12px 0; display: flex; align-items: baseline; justify-content: space-between; gap: 20px; border-bottom: 1px solid var(--border); }
+.option-ingredients li:last-child { border-bottom: 0; }
+.option-ingredients span { color: var(--muted); font-size: .88rem; }
+.option-ingredients strong { flex: 0 0 auto; font-family: var(--serif); font-size: .92rem; }
+.mini-steps { margin: 22px 0 0; padding-left: 20px; }
+.mini-steps li { padding: 4px 0 4px 5px; color: var(--muted); font-size: .88rem; }
+.batch-tip { margin: 22px 0 0; padding: 16px 18px; border-radius: 14px; background: rgba(255,255,255,.58); color: var(--muted); font-size: .8rem; }
+.batch-tip strong { color: var(--green); }
+.options-note { margin: 24px 0 0; color: #70786b; font-size: .8rem; }
+
+.rotation-grid { margin-top: 48px; display: grid; grid-template-columns: repeat(3,1fr); gap: 18px; }
+.rotation-card { padding: 28px; display: grid; grid-template-rows: auto 1fr auto; border: 1px solid var(--border); border-radius: 26px; background: #fff; }
+.rotation-card.sage-rotation { background: var(--sage); }
+.rotation-card.warm-rotation { background: #fff1e8; }
+.rotation-week { display: flex; align-items: center; justify-content: space-between; }
+.rotation-week span { color: var(--muted); font-size: .68rem; font-weight: 800; letter-spacing: .13em; text-transform: uppercase; }
+.rotation-week strong { color: rgba(37,49,38,.14); font: 700 4.5rem/1 var(--serif); }
+.rotation-card h3 { margin-top: 2px; font-size: 1.7rem; }
+.rotation-card p:not(.eyebrow) { color: var(--muted); font-size: .88rem; }
+.weekday-dots { margin-top: 22px; display: grid; grid-template-columns: repeat(5,1fr); gap: 7px; }
+.weekday-dots span { aspect-ratio: 1; display: grid; place-items: center; border-radius: 50%; background: var(--green); color: var(--cream); font-size: .7rem; font-weight: 800; }
+.week-four { margin-top: 18px; padding: 18px 22px; border: 1px dashed rgba(37,49,38,.28); border-radius: 16px; color: var(--muted); text-align: center; }
+.week-four strong { color: var(--green); }
+
+@media (max-width: 950px) {
+  .option-section-heading, .alternative-grid { grid-template-columns: 1fr; }
+  .rotation-grid { grid-template-columns: 1fr; }
+  .option-intro { min-height: 0; }
+}
+
+@media (max-width: 600px) {
+  .alternative-card { padding: 24px; }
+  .alternative-card-top { grid-template-columns: 1fr; }
+  .compact-macro { justify-self: start; }
+  .option-group-label { align-items: flex-start; flex-direction: column; }
+  .option-ingredients li { align-items: flex-start; flex-direction: column; gap: 3px; }
+  .weekday-dots { max-width: 280px; }
+}
