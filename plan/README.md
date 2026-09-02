@@ -6,6 +6,8 @@ This folder converts validated search demand into an executable page roadmap.
 
 - [`page-roadmap.csv`](page-roadmap.csv) — planned pages and their target clusters.
 - [`pillar-page-outline.md`](pillar-page-outline.md) — working story and content order for the first pillar page.
+- [`audience-and-content-strategy.md`](audience-and-content-strategy.md) — Indian-women-first positioning, localization rules, and connected publishing order.
+- [`domain-shortlist.md`](domain-shortlist.md) — live `.com` registry check and ranked brand options.
 
 ## Planning rules
 
