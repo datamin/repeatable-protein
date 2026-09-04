@@ -4,6 +4,8 @@ Last updated: 2026-09-04
 
 This is the human-readable dashboard for page publication, target keywords, keyword opportunity, SERP research, and future Google Search Console performance. The CSV files remain the source for row-level history.
 
+Google Search Console ownership was verified by DNS on 2026-09-04. The sitemap was submitted successfully and Google discovered all 5 current pages. Indexing and performance reports are still processing; see [`search-console.md`](search-console.md).
+
 ## Published pages
 
 | ID | Page | Live URL | Status | Market | Target cluster | Primary keyword | Primary keyword volume | Selected cluster volume | Representative KD | SERP review | Indexed | GSC period | Impressions | Clicks | CTR | Average position |
@@ -39,7 +41,7 @@ Planned URLs are working slugs and will not resolve until the page is published.
 - **Representative KD** is Semrush keyword difficulty for the representative cluster keyword, not a guarantee of how difficult our specific page will be to rank.
 - `—` means the metric has not been researched or does not apply; it does not mean zero.
 - Current keyword figures come from Semrush Keyword Magic Tool research checked on 2026-08-30.
-- GSC fields remain blank until Search Console is connected and begins reporting data.
+- GSC was connected on 2026-09-04. Performance fields remain blank until Google begins reporting data.
 
 ## Update process
 

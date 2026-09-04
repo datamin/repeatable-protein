@@ -6,6 +6,7 @@ This folder will track published URLs and search performance after the website i
 
 - [`page-status.md`](page-status.md) — human-readable dashboard combining live URLs, planned pages, target clusters, Semrush volume/KD, SERP-review status, and future GSC fields.
 - [`published-pages.csv`](published-pages.csv) — publication, indexing, update, and performance history.
+- [`search-console.md`](search-console.md) — domain verification, sitemap submission, and Search Console processing status.
 
 ## Reporting convention
 
