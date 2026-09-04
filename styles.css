@@ -477,14 +477,9 @@ footer b { background: var(--cream); color: var(--green); }
 .plain-recipe-list li { padding: 14px 0; border-bottom: 1px solid var(--border); color: var(--muted); }
 .plain-recipe-list li:last-child { border-bottom: 0; }
 .focused-total { margin-top: 24px; }
-.snack-section { padding-block: 72px; border-top: 1px solid var(--border); background: var(--sage); }
-.snack-box { display: grid; grid-template-columns: 160px 1fr; align-items: center; gap: 42px; }
-.snack-number { width: 150px; height: 150px; display: grid; place-content: center; border: 8px solid var(--rust); border-radius: 50%; text-align: center; }
-.snack-number strong { font: 700 3rem/1 var(--serif); }
-.snack-number span { margin-top: 6px; color: var(--muted); font-size: .72rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
-.snack-box h2 { max-width: 780px; }
-.snack-box p:not(.eyebrow) { max-width: 900px; color: var(--muted); }
-.snack-label-note { font-size: .78rem; }
+.snack-note { padding-block: 22px; border-top: 1px solid var(--border); background: var(--sage); }
+.snack-note p { margin: 0; color: var(--muted); line-height: 1.65; }
+.snack-note strong { color: var(--ink); }
 .family-dinner-section { padding-block: 105px; background: var(--green); color: var(--cream); }
 .family-dinner-section .option-section-heading > p { color: #cbd5c6; }
 .dinner-option-grid { margin-top: 50px; display: grid; grid-template-columns: repeat(3,1fr); gap: 16px; }
@@ -514,6 +509,4 @@ footer b { background: var(--cream); color: var(--green); }
   .calculation-correction { padding: 26px; }
   .repeat-system-grid { grid-template-columns: 1fr; }
   .go-out-guide-inner { grid-template-columns: 1fr; }
-  .snack-box { grid-template-columns: 1fr; }
-  .snack-number { width: 125px; height: 125px; }
 }
