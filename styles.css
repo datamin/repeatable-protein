@@ -466,9 +466,15 @@ footer b { background: var(--cream); color: var(--green); }
 
 /* 100g protein without daily tracking guide */
 .protein-guide-hero h1 em { color: var(--rust); font-weight: 500; }
+.protein-guide-hero { min-height: 610px; padding-block: 45px 62px; gap: 50px; }
+.protein-guide-hero h1 { max-width: 690px; font-size: clamp(3.2rem,5.25vw,5.5rem); }
+.protein-guide-hero .lead { font-size: 1.05rem; line-height: 1.65; }
+.protein-guide-hero .subpage-hero-image img { min-height: 455px; }
 .protein-formula-band { background: var(--green); }
 .protein-formula-band .formula-band-inner { grid-template-columns: .65fr 1.35fr; gap: 44px; }
 .protein-formula-band h2 { font-size: clamp(2.5rem,4.1vw,4rem); }
+.simplified-formula span { flex: 1; min-width: 0; }
+.simplified-formula span:first-child { flex: 1.25; }
 .plain-recipe-list { margin: 24px 0 0; padding: 0; list-style: none; }
 .plain-recipe-list li { padding: 14px 0; border-bottom: 1px solid var(--border); color: var(--muted); }
 .plain-recipe-list li:last-child { border-bottom: 0; }
@@ -484,7 +490,7 @@ footer b { background: var(--cream); color: var(--green); }
 .dinner-option-grid article > strong { display: block; margin: 20px 0 14px; color: #f2c3aa; font: 700 1.35rem var(--serif); }
 .dinner-option-grid article > p:last-child, .dark-source-note { color: #cbd5c6; }
 .dark-source-note { margin: 24px 0 0; font-size: .78rem; }
-.repeat-system-section { padding-block: 105px; }
+.repeat-week-section { padding-block: 90px; }
 .repeat-system-grid { margin: 48px 0 0; padding: 0; display: grid; grid-template-columns: repeat(4,1fr); gap: 14px; list-style: none; }
 .repeat-system-grid li { padding: 28px; border: 1px solid var(--border); border-radius: 24px; background: #fff; }
 .repeat-system-grid li > span { color: var(--rust); font: 700 1.6rem var(--serif); }
@@ -494,14 +500,25 @@ footer b { background: var(--cream); color: var(--green); }
 .go-out-guide-inner { display: grid; grid-template-columns: 150px 1fr; align-items: center; gap: 45px; }
 .go-out-guide h2 { max-width: 900px; }
 .go-out-guide p:last-child { max-width: 900px; color: var(--muted); line-height: 1.8; }
+.checklist-cta { margin-top: 22px; padding: 30px 34px; display: flex; align-items: center; justify-content: space-between; gap: 36px; border-radius: 24px; background: var(--sage); }
+.checklist-cta h3 { font-size: 1.9rem; }
+.checklist-cta p:last-child { max-width: 650px; margin-bottom: 0; color: var(--muted); }
+.checklist-cta .button { flex: 0 0 auto; }
+.supporting-actions { justify-content: center; }
 
 @media (max-width: 950px) {
   .dinner-option-grid { grid-template-columns: 1fr; }
   .dinner-option-grid h3 { min-height: 0; }
   .repeat-system-grid { grid-template-columns: 1fr 1fr; }
+  .protein-guide-hero { min-height: 0; }
+  .protein-formula-band .formula-band-inner { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 650px) {
   .repeat-system-grid { grid-template-columns: 1fr; }
   .go-out-guide-inner { grid-template-columns: 1fr; }
+  .protein-guide-hero { padding-block: 36px 52px; }
+  .protein-guide-hero .subpage-hero-image img { min-height: 340px; }
+  .checklist-cta { padding: 25px; align-items: stretch; flex-direction: column; }
+  .checklist-cta .button { width: 100%; }
 }
