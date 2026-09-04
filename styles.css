@@ -469,10 +469,6 @@ footer b { background: var(--cream); color: var(--green); }
 .protein-formula-band { background: var(--green); }
 .protein-formula-band .formula-band-inner { grid-template-columns: .65fr 1.35fr; gap: 44px; }
 .protein-formula-band h2 { font-size: clamp(2.5rem,4.1vw,4rem); }
-.guide-intro { padding-block: 28px 90px; }
-.calculation-correction { padding: 36px 40px; border-left: 6px solid var(--rust); border-radius: 0 26px 26px 0; background: #fff1e8; }
-.calculation-correction h2 { max-width: 820px; font-size: clamp(2.2rem,4vw,3.5rem); }
-.calculation-correction p:last-child { max-width: 950px; margin-bottom: 0; color: var(--muted); line-height: 1.8; }
 .plain-recipe-list { margin: 24px 0 0; padding: 0; list-style: none; }
 .plain-recipe-list li { padding: 14px 0; border-bottom: 1px solid var(--border); color: var(--muted); }
 .plain-recipe-list li:last-child { border-bottom: 0; }
@@ -506,7 +502,6 @@ footer b { background: var(--cream); color: var(--green); }
 }
 
 @media (max-width: 650px) {
-  .calculation-correction { padding: 26px; }
   .repeat-system-grid { grid-template-columns: 1fr; }
   .go-out-guide-inner { grid-template-columns: 1fr; }
 }
