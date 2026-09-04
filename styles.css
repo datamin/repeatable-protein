@@ -479,6 +479,23 @@ footer b { background: var(--cream); color: var(--green); }
 .plain-recipe-list li { padding: 14px 0; border-bottom: 1px solid var(--border); color: var(--muted); }
 .plain-recipe-list li:last-child { border-bottom: 0; }
 .focused-total { margin-top: 24px; }
+.quick-options-section { padding: 64px 0; background: #f4efe5; border-block: 1px solid var(--border); }
+.quick-options-heading { display: grid; grid-template-columns: 1fr .72fr; align-items: end; gap: 48px; }
+.quick-options-heading h2 { max-width: 700px; font-size: clamp(2.15rem,3.4vw,3.5rem); }
+.quick-options-heading > p { margin: 0; color: var(--muted); line-height: 1.7; }
+.quick-choice-row { margin-top: 30px; display: grid; grid-template-columns: 105px 1fr; align-items: stretch; gap: 18px; }
+.quick-choice-row > h3 { margin: 0; padding-top: 16px; color: var(--rust); font: 700 .76rem var(--sans); letter-spacing: .12em; text-transform: uppercase; }
+.quick-choice-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 12px; }
+.quick-choice { min-width: 0; padding: 17px 18px 16px; border: 1px solid var(--border); border-radius: 16px; background: rgba(255,255,255,.62); }
+.quick-choice.default-choice { border-color: rgba(43,69,56,.42); background: #eef1e8; }
+.choice-tag { display: inline-block; margin-bottom: 8px; color: var(--rust); font-size: .62rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+.default-choice .choice-tag { color: var(--green); }
+.quick-choice h4 { margin: 0 0 9px; font: 700 1.08rem/1.2 var(--serif); }
+.quick-choice p { margin: 0 0 5px; color: var(--muted); font-size: .82rem; }
+.quick-choice p strong { color: var(--ink); }
+.quick-choice small { color: #74796f; font-size: .7rem; }
+.quick-options-link { margin: 24px 0 0 123px; font-size: .86rem; font-weight: 700; }
+.quick-options-link a { color: var(--rust); }
 .snack-note { padding-block: 22px; border-top: 1px solid var(--border); background: var(--sage); }
 .snack-note p { margin: 0; color: var(--muted); line-height: 1.65; }
 .snack-note strong { color: var(--ink); }
@@ -512,6 +529,10 @@ footer b { background: var(--cream); color: var(--green); }
   .repeat-system-grid { grid-template-columns: 1fr 1fr; }
   .protein-guide-hero { min-height: 0; }
   .protein-formula-band .formula-band-inner { grid-template-columns: 1fr; }
+  .quick-options-heading { grid-template-columns: 1fr; gap: 16px; }
+  .quick-choice-row { grid-template-columns: 1fr; gap: 8px; }
+  .quick-choice-row > h3 { padding-top: 0; }
+  .quick-options-link { margin-left: 0; }
 }
 
 @media (max-width: 650px) {
@@ -519,6 +540,9 @@ footer b { background: var(--cream); color: var(--green); }
   .go-out-guide-inner { grid-template-columns: 1fr; }
   .protein-guide-hero { padding-block: 36px 52px; }
   .protein-guide-hero .subpage-hero-image img { min-height: 340px; }
+  .quick-options-section { padding: 48px 0; }
+  .quick-choice-grid { margin-right: calc(var(--gutter) * -1); padding: 0 var(--gutter) 8px 0; display: flex; overflow-x: auto; scroll-snap-type: x proximity; scrollbar-width: thin; }
+  .quick-choice { flex: 0 0 min(78vw,270px); scroll-snap-align: start; }
   .checklist-cta { padding: 25px; align-items: stretch; flex-direction: column; }
   .checklist-cta .button { width: 100%; }
 }
