@@ -522,6 +522,12 @@ footer b { background: var(--cream); color: var(--green); }
 .checklist-cta p:last-child { max-width: 650px; margin-bottom: 0; color: var(--muted); }
 .checklist-cta .button { flex: 0 0 auto; }
 .supporting-actions { justify-content: center; }
+.strength-bridge { padding: 46px 0; background: var(--rust); color: var(--cream); }
+.strength-bridge-inner { display: grid; grid-template-columns: 1.2fr 1fr auto; align-items: center; gap: 42px; }
+.strength-bridge h2 { max-width: 570px; margin: 0; font-size: clamp(1.8rem,2.75vw,2.75rem); }
+.strength-bridge p { margin: 0; color: #fff1e8; line-height: 1.65; }
+.strength-bridge .eyebrow { margin-bottom: 8px; color: #ffddcb; }
+.strength-bridge .button { white-space: nowrap; border-color: var(--cream); }
 
 @media (max-width: 950px) {
   .dinner-option-grid { grid-template-columns: 1fr; }
@@ -533,6 +539,8 @@ footer b { background: var(--cream); color: var(--green); }
   .quick-choice-row { grid-template-columns: 1fr; gap: 8px; }
   .quick-choice-row > h3 { padding-top: 0; }
   .quick-options-link { margin-left: 0; }
+  .strength-bridge-inner { grid-template-columns: 1fr; gap: 20px; }
+  .strength-bridge .button { justify-self: start; }
 }
 
 @media (max-width: 650px) {
