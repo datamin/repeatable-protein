@@ -1,4 +1,4 @@
-# Repeatable Protein
+# Strong on Repeat
 
 Research and execution workspace for a static content website about helping busy women meet an appropriate protein target with fewer daily food decisions.
 
@@ -23,6 +23,10 @@ The working editorial idea is simple: calculate a repeatable breakfast and lunch
 4. Map each keyword to one primary page to reduce cannibalization.
 5. Treat 100 g as a searchable example, not a universal health recommendation.
 
+## Live website
+
+The static site is published with GitHub Pages at [strongonrepeat.com](https://strongonrepeat.com/). The original repository URL redirects to the custom domain.
+
 ## Current phase
 
-Repository setup and keyword validation. Website implementation, GitHub Pages configuration, and a custom domain will follow after the initial content architecture is approved.
+Publishing the first topical clusters, completing Search Console setup, and building authority around repeatable nutrition and strength routines.

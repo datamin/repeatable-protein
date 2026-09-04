@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://datamin.github.io/repeatable-protein/sitemap.xml
+Sitemap: https://strongonrepeat.com/sitemap.xml

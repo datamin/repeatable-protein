@@ -8,11 +8,11 @@ This is the human-readable dashboard for page publication, target keywords, keyw
 
 | ID | Page | Live URL | Status | Market | Target cluster | Primary keyword | Primary keyword volume | Selected cluster volume | Representative KD | SERP review | Indexed | GSC period | Impressions | Clicks | CTR | Average position |
 |---|---|---|---|---|---|---|---:|---:|---:|---|---|---|---:|---:|---:|---:|
-| H001 | Repeatable Protein home | [Live page](https://datamin.github.io/repeatable-protein/) | Published | US + India | Brand and personal story | — | — | — | — | Not applicable | Pending | — | — | — | — | — |
-| P001 | How I Aim for 100g of Protein Without Tracking Every Meal | [Live page](https://datamin.github.io/repeatable-protein/100g-protein-without-tracking/) | Published | US primary; India secondary | C01 · 100g protein per day; C02 · protein without tracking | how to get 100g of protein a day | 1,000 | 7,420 | 38 | Partial; full top-result review pending | Pending | — | — | — | — | — |
-| P002 | High-Protein Vegetarian Meal Plan: A Repeatable 100g Day | [Live page](https://datamin.github.io/repeatable-protein/high-protein-vegetarian-meal-plan/) | Published | US primary; India secondary | C03 · high-protein vegetarian meal plan | high protein vegetarian meal plan | 320 | 890 | 23 | Intent checked; full top-result review pending | Pending | — | — | — | — | — |
-| T001 | About Priyanka | [Live page](https://datamin.github.io/repeatable-protein/about/) | Published | Global | Trust and author information | — | — | — | — | Not applicable | Pending | — | — | — | — | — |
-| T002 | Editorial methodology | [Live page](https://datamin.github.io/repeatable-protein/editorial-methodology/) | Published | Global | Trust and methodology | — | — | — | — | Not applicable | Pending | — | — | — | — | — |
+| H001 | Strong on Repeat home | [Live page](https://strongonrepeat.com/) | Published | US + India | Brand and personal story | — | — | — | — | Not applicable | Pending | — | — | — | — | — |
+| P001 | How I Aim for 100g of Protein Without Tracking Every Meal | [Live page](https://strongonrepeat.com/100g-protein-without-tracking/) | Published | US primary; India secondary | C01 · 100g protein per day; C02 · protein without tracking | how to get 100g of protein a day | 1,000 | 7,420 | 38 | Partial; full top-result review pending | Pending | — | — | — | — | — |
+| P002 | High-Protein Vegetarian Meal Plan: A Repeatable 100g Day | [Live page](https://strongonrepeat.com/high-protein-vegetarian-meal-plan/) | Published | US primary; India secondary | C03 · high-protein vegetarian meal plan | high protein vegetarian meal plan | 320 | 890 | 23 | Intent checked; full top-result review pending | Pending | — | — | — | — | — |
+| T001 | About Priyanka | [Live page](https://strongonrepeat.com/about/) | Published | Global | Trust and author information | — | — | — | — | Not applicable | Pending | — | — | — | — | — |
+| T002 | Editorial methodology | [Live page](https://strongonrepeat.com/editorial-methodology/) | Published | Global | Trust and methodology | — | — | — | — | Not applicable | Pending | — | — | — | — | — |
 
 ## Planned SEO pages
 

@@ -1,5 +1,9 @@
 # Domain shortlist
 
+## Decision
+
+`strongonrepeat.com` was selected and registered through Porkbun on 2026-09-04. It provides room for both repeatable nutrition and repeatable strength-training content. The working brand is **Strong on Repeat**.
+
 Checked: 2026-09-02
 
 Registry status was checked against the Verisign `.com` RDAP service. A `no record` response is a strong availability signal, not a reservation: a domain can be registered by someone else at any time. A registrar must confirm availability immediately before purchase.
