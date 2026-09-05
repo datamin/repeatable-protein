@@ -8,7 +8,8 @@ Last updated: 2026-09-04
 | Ownership | Verified by DNS TXT record |
 | Sitemap | [https://strongonrepeat.com/sitemap.xml](https://strongonrepeat.com/sitemap.xml) |
 | Sitemap submission | Success on 2026-09-04 |
-| Pages discovered from sitemap | 5 |
+| Pages discovered from Google's last sitemap read | 5 |
+| URLs in the current sitemap | 6; the new Indian meal-plan page is awaiting Google's next read |
 | Search performance data | Processing; Google says to check again in a day or so |
 | Individual page indexing | Pending crawl and indexing reports |
 

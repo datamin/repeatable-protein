@@ -29,4 +29,4 @@ The static site is published with GitHub Pages at [strongonrepeat.com](https://s
 
 ## Current phase
 
-Publishing the first topical clusters, completing Search Console setup, and building authority around repeatable nutrition and strength routines.
+Publishing the first topical clusters, monitoring Search Console, and building authority around repeatable nutrition and strength routines.

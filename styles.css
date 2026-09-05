@@ -554,3 +554,79 @@ footer b { background: var(--cream); color: var(--green); }
   .checklist-cta { padding: 25px; align-items: stretch; flex-direction: column; }
   .checklist-cta .button { width: 100%; }
 }
+
+/* 100g protein Indian diet */
+.indian-plan-hero { min-height: 680px; }
+.indian-plan-hero h1 { max-width: 760px; }
+.indian-hero-image img { min-height: 500px; aspect-ratio: 4 / 3; }
+.image-disclosure { position: absolute; left: 18px; bottom: 14px; padding: 6px 9px; border-radius: 999px; background: rgba(251,248,241,.9); color: var(--muted); font-size: .66rem; font-weight: 700; }
+.section-side-copy { max-width: 480px; margin: 0; color: var(--muted); line-height: 1.75; }
+.track-grid { margin-top: 48px; display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.track-card { padding: 36px; border: 1px solid var(--border); border-radius: 30px; background: #fff; }
+.track-card.veg-track { background: var(--sage); }
+.track-card h3 { max-width: 500px; font-size: clamp(2rem,3vw,3rem); }
+.track-card > p:not(.eyebrow) { max-width: 540px; color: var(--muted); }
+.track-card > a { display: inline-block; margin-top: 10px; color: var(--rust); font-weight: 800; text-decoration: underline; text-underline-offset: 4px; }
+.track-number { margin: 24px 0 14px; font: 700 clamp(2.4rem,5vw,4.8rem)/1 var(--serif); letter-spacing: -.05em; }
+.indian-eggetarian-section { padding-block: 95px; border-block: 1px solid var(--border); background: var(--sand); }
+.indian-quick-pair { margin-top: 44px; display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+.indian-quick-pair article { padding: 32px; border: 1px solid var(--border); border-radius: 26px; background: #fff; }
+.indian-quick-pair article:nth-child(2) { background: #fff1e8; }
+.indian-quick-pair article > span { color: var(--rust); font-size: .72rem; font-weight: 800; letter-spacing: .11em; text-transform: uppercase; }
+.indian-quick-pair h3 { margin-top: 14px; }
+.indian-quick-pair p { color: var(--muted); line-height: 1.75; }
+.indian-quick-pair article > strong { color: var(--green); font-family: var(--serif); }
+.compact-route-link { margin-top: 18px; padding: 20px 24px; display: flex; align-items: center; justify-content: space-between; gap: 30px; border-radius: 18px; background: var(--green); color: var(--cream); }
+.compact-route-link p { margin: 0; color: #d3dbce; }
+.compact-route-link a { flex: 0 0 auto; font-weight: 800; text-decoration: underline; text-underline-offset: 4px; }
+.indian-vegetarian-section { padding-bottom: 72px; }
+.swap-card { margin-top: 22px; padding: 28px 32px; display: grid; grid-template-columns: .55fr 1.45fr; align-items: center; gap: 45px; border: 1px solid var(--border); border-radius: 24px; background: var(--sage); }
+.swap-card h3 { font-size: 2rem; }
+.swap-card p { margin: 0; color: var(--muted); line-height: 1.75; }
+.indian-lunch-section { border-block: 1px solid var(--border); background: #fff1e8; }
+.yogurt-method-section { padding-block: 100px; }
+.yogurt-method-grid { display: grid; grid-template-columns: .85fr 1.15fr; align-items: start; gap: 70px; }
+.strain-steps { margin: 0; padding: 0; list-style: none; counter-reset: strain-step; }
+.strain-steps li { position: relative; padding: 20px 0 20px 60px; display: grid; gap: 5px; border-bottom: 1px solid var(--border); counter-increment: strain-step; }
+.strain-steps li::before { content: counter(strain-step, decimal-leading-zero); position: absolute; left: 0; top: 20px; color: var(--rust); font: 700 1.25rem var(--serif); }
+.strain-steps span { color: var(--muted); }
+.yogurt-caveat { margin: 32px 0 0; padding: 22px 24px; border-radius: 18px; background: var(--sand); color: var(--muted); }
+.yogurt-caveat strong { color: var(--green); }
+.indian-week-section { border-block: 1px solid var(--border); background: var(--sand); }
+.weekday-plan { overflow: hidden; margin-top: 44px; border: 1px solid var(--border); border-radius: 26px; background: #fff; }
+.weekday-plan > div { padding: 16px 22px; display: grid; grid-template-columns: 74px 1.25fr 1.25fr .8fr; align-items: center; gap: 18px; border-bottom: 1px solid var(--border); }
+.weekday-plan > div:last-child { border-bottom: 0; }
+.weekday-plan-head { background: var(--green); color: var(--cream); font-size: .68rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+.weekday-plan strong { color: var(--rust); font-family: var(--serif); }
+.weekday-plan span { color: var(--muted); }
+.weekday-plan-head span { color: var(--cream); }
+.week-rotation-note { margin-top: 18px; padding: 18px 22px; border: 1px dashed rgba(37,49,38,.3); border-radius: 16px; color: var(--muted); text-align: center; }
+.week-rotation-note strong { color: var(--green); }
+.indian-dinner-section { padding-bottom: 95px; }
+.indian-snack-note { border-bottom: 1px solid var(--border); }
+.check-once-grid { margin-top: 30px; display: grid; grid-template-columns: repeat(3,1fr); gap: 14px; }
+.check-once-grid article { padding: 24px; border: 1px solid var(--border); border-radius: 20px; background: #fff; }
+.check-once-grid strong { color: var(--rust); font-family: var(--serif); font-size: 1.45rem; }
+.check-once-grid p { margin-bottom: 0; font-size: .86rem; }
+
+@media (max-width: 950px) {
+  .track-grid, .indian-quick-pair, .yogurt-method-grid { grid-template-columns: 1fr; }
+  .swap-card { grid-template-columns: 1fr; gap: 14px; }
+  .compact-route-link { align-items: flex-start; flex-direction: column; gap: 12px; }
+  .check-once-grid { grid-template-columns: 1fr; }
+  .weekday-plan > div { grid-template-columns: 60px 1fr 1fr; }
+  .weekday-plan > div > *:last-child { grid-column: 2 / -1; }
+}
+
+@media (max-width: 650px) {
+  .indian-plan-hero { min-height: 0; }
+  .indian-plan-hero h1 { font-size: 3rem; }
+  .indian-hero-image img { min-height: 330px; }
+  .track-card, .indian-quick-pair article { padding: 25px; }
+  .compact-route-link { padding: 20px; }
+  .swap-card { padding: 24px; }
+  .weekday-plan { overflow-x: auto; border-radius: 18px; }
+  .weekday-plan > div { min-width: 670px; grid-template-columns: 60px 1.15fr 1.15fr .8fr; }
+  .weekday-plan > div > *:last-child { grid-column: auto; }
+  .image-disclosure { left: 10px; bottom: 10px; }
+}
